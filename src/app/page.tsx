@@ -39,7 +39,7 @@ export default function Home() {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="text-5xl font-bold drop-shadow-lg"
         >
-          Mental Health & Sex Education Platform, Anonymously
+         Your Mental Health, Your Privacy, Your Control
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
