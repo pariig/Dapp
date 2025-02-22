@@ -4,8 +4,8 @@ import Web3 from "web3"; // Import Web3 library
 
 // Assume these are the transaction details fetched from a blockchain smart contract or an API.
 const initialTransactions = [
-  { id: 1, patient: "John Doe", amount: "$50", date: "March 5, 2024", transactionHash: "0x1234...abcd" },
-  { id: 2, patient: "Jane Smith", amount: "$75", date: "March 6, 2024", transactionHash: "0x5678...efgh" },
+  { id: 1, patient: "Sanskar Garg", amount: "$50", date: "March 5, 2024", transactionHash: "0x1234...abcd" },
+  { id: 2, patient: "Tarun Garg", amount: "$75", date: "March 6, 2024", transactionHash: "0x5678...efgh" },
 ];
 
 const Payments = () => {
