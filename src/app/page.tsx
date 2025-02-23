@@ -292,7 +292,7 @@ export default function Home() {
         <p className="text-lg mb-6">
           Join SoulChain today and connect with professionals who respect your privacy. Experience mental health support like never before.
         </p>
-        <Link href="/signup">
+        <Link href="/login">
           <Button className="bg-gradient-to-r from-teal-400 to-blue-500 text-white shadow-lg hover:scale-110 transition-all">
             Get Started
           </Button>
