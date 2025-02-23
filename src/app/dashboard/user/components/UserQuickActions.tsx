@@ -40,7 +40,7 @@ import { Button } from "@/components/ui/button";
 
 const quickActions = [
   { label: "Book a Session", href: "/dashboard/user/book-session", icon: "📅", gradient: "bg-gradient-to-r from-teal-500 to-green-500" },
-  { label: "View Resources", href: "dashboard/user/mental-health-resources", icon: "📚", gradient: "bg-gradient-to-r from-green-500 to-lime-500" },
+  { label: "View Resources", href: "/dashboard/user/mental-health-resources", icon: "📚", gradient: "bg-gradient-to-r from-green-500 to-lime-500" },
   { label: "Chat with Support", href: "/user/messages", icon: "💬", gradient: "bg-gradient-to-r from-purple-500 to-indigo-500" },
   { label: "Feedback & Reports", href: "/user/feedback", icon: "📝", gradient: "bg-gradient-to-r from-yellow-500 to-orange-500" },
 ];
