@@ -1,7 +1,7 @@
 "use client";
 
 const stats = [
-  { label: "Total Sessions", value: "12", trend: "+2 this month", emoji: "📅", gradient: "from-green-400 to-teal-500" },
+  { label: "Total Sessions", value: "12", trend: "+2 this month", emoji: "📅", gradient: "from-red-600 to-rose-500" },
   { label: "Hours Spent", value: "8.5", trend: "1.5 this week", emoji: "⏰", gradient: "from-blue-400 to-indigo-500" },
   { label: "Therapists Consulted", value: "3", trend: "Across 2 specialties", emoji: "🧑‍⚕️", gradient: "from-purple-400 to-pink-500" },
   { label: "Resources Accessed", value: "7", trend: "2 new this week", emoji: "📚", gradient: "from-yellow-400 to-orange-500" },

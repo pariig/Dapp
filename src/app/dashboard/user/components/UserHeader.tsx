@@ -14,14 +14,14 @@ export default function UserHeader() {
     >
       <div>
         <motion.h1 
-          className="text-3xl font-bold text-white"
+          className="text-3xl font-bold text-[#422a1e]"
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ delay: 0.2, duration: 0.5 }}
         >
           Welcome Dear User!
         </motion.h1>
-        <p className="text-gray-200">Your mental health journey starts here.</p>
+        <p className="text-[#422a1e]">Your mental health journey starts here.</p>
       </div>
 
       <div className="flex items-center gap-6">
