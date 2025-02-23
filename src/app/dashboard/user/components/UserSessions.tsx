@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 
 const sessions = [
-  { id: 1, therapist: "Dr. Emily Carter", time: "3:00 PM Today", type: "Video Call", specialty: "Mental Health" },
-  { id: 2, therapist: "Dr. John Doe", time: "5:30 PM Tomorrow", type: "Chat Session", specialty: "Sex Education" },
+  { id: 1, therapist: "Dr. Pari Gupta", time: "3:00 PM Today", type: "Video Call", specialty: "Mental Health" },
+  { id: 2, therapist: "Dr. Disha Sethi", time: "5:30 PM Tomorrow", type: "Chat Session", specialty: "Sex Education" },
 ];
 
 export default function UserSessions() {

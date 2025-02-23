@@ -19,7 +19,7 @@ export default function UserHeader() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ delay: 0.2, duration: 0.5 }}
         >
-          Welcome, User
+          Welcome Dear User!
         </motion.h1>
         <p className="text-gray-200">Your mental health journey starts here.</p>
       </div>

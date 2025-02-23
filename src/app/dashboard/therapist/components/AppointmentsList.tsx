@@ -11,9 +11,9 @@ interface Appointment {
 }
 
 const initialAppointments: Appointment[] = [
-  { id: 1, clientName: "John Doe", date: "2025-02-20", time: "10:00 AM", status: "Upcoming" },
-  { id: 2, clientName: "Jane Smith", date: "2025-02-21", time: "02:30 PM", status: "Upcoming" },
-  { id: 3, clientName: "Alex Johnson", date: "2025-02-22", time: "04:00 PM", status: "Upcoming" },
+  { id: 1, clientName: "Parth", date: "2025-02-20", time: "10:00 AM", status: "Upcoming" },
+  { id: 2, clientName: "Aanya Bansal", date: "2025-02-21", time: "02:30 PM", status: "Upcoming" },
+  { id: 3, clientName: "Riya Gupta", date: "2025-02-22", time: "04:00 PM", status: "Upcoming" },
 ];
 
 export default function Appointments() {
