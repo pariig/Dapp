@@ -167,8 +167,8 @@ export default function Appointments() {
   };
 
   return (
-    <div className="p-8 bg-teal-100 min-h-screen">
-      <h1 className="text-3xl font-bold mb-6 text-teal-900">Appointments for Session</h1>
+    <div className="p-8 bg-white-100 min-h-screen">
+      <h1 className="text-3xl font-bold mb-6 text-white-900">Appointments for Session</h1>
 
       {appointments.length === 0 ? (
         <p className="text-gray-600">No upcoming appointments.</p>

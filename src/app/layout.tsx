@@ -144,6 +144,154 @@
 // }
 
 
+// import type { Metadata } from "next";
+// import { Geist, Geist_Mono } from "next/font/google";
+// import "./globals.css";
+// import Link from "next/link";
+
+// const geistSans = Geist({
+//   variable: "--font-geist-sans",
+//   subsets: ["latin"],
+// });
+
+// const geistMono = Geist_Mono({
+//   variable: "--font-geist-mono",
+//   subsets: ["latin"],
+// });
+
+// export const metadata: Metadata = {
+//   title: "Soulchain",
+//   description: "soulchain",
+// };
+
+// export default function RootLayout({
+//   children,
+// }: Readonly<{
+//   children: React.ReactNode;
+// }>) {
+//   return (
+//     <html lang="en">
+//       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+//         {/* Navbar */}
+//         <nav className="bg-gradient-to-br from-[#34e89e] to-[#0f3443] text-white p-6 shadow-lg">
+//           <div className="max-w-7xl mx-auto flex justify-between items-center">
+//             {/* Logo Section */}
+//             <Link href="/" className="flex items-center space-x-2">
+//               <img src="/logo.png" alt="Website Logo" className="h-12 transition-transform duration-300 hover:scale-110" /> {/* Added hover effect */}
+//               <span className="text-3xl font-extrabold text-gray-100">SoulChain</span> {/* Enhanced logo font size */}
+//             </Link>
+
+//             {/* Navbar Links */}
+//             <div className="space-x-6 hidden md:flex">
+//               <Link href="/" className="hover:text-gray-300 transition duration-300">Home</Link>
+//               <Link href="/dashboard/therapist" className="hover:text-gray-300 transition duration-300">Therapist Dashboard</Link>
+//               <Link href="/dashboard/user" className="hover:text-gray-300 transition duration-300">User Dashboard</Link>
+//               <Link href="/contact" className="hover:text-gray-300 transition duration-300">Contact Us</Link>
+//               <Link href="/login" className="hover:text-gray-300 transition duration-300">Login</Link>
+//             </div>
+
+//             {/* Mobile Menu Toggle (Hamburger) */}
+//             <div className="md:hidden">
+//               <button className="text-3xl">☰</button> {/* Simple hamburger icon */}
+//             </div>
+//           </div>
+//         </nav>
+
+//         {/* Main content */}
+//         {children}
+//       </body>
+//     </html>
+//   );
+// }
+
+
+
+
+// import type { Metadata } from "next";
+// import { Geist, Geist_Mono } from "next/font/google";
+// import "./globals.css";
+// import Link from "next/link";
+
+// const geistSans = Geist({
+//   variable: "--font-geist-sans",
+//   subsets: ["latin"],
+// });
+
+// const geistMono = Geist_Mono({
+//   variable: "--font-geist-mono",
+//   subsets: ["latin"],
+// });
+
+// export const metadata: Metadata = {
+//   title: "SoulChain",
+//   description: "SoulChain - Decentralized Mental Health Support",
+// };
+
+// export default function RootLayout({
+//   children,
+// }: Readonly<{
+//   children: React.ReactNode;
+// }>) {
+//   return (
+//     <html lang="en">
+//       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+//         {/* Navbar */}
+//         <nav className="bg-gradient-to-br from-[#f4f0e1] to-[#e1d7c6] text-gray-800 p-6 shadow-lg">
+//           <div className="max-w-7xl mx-auto flex justify-between items-center">
+//             {/* Logo Section */}
+//             <Link href="/" className="flex items-center space-x-2">
+//               <img src="/logo.png" alt="Website Logo" className="h-12 transition-transform duration-300 hover:scale-110" />
+//               <span className="text-3xl font-extrabold text-teal-500">SoulChain</span>
+//             </Link>
+
+//             {/* Navbar Links */}
+//             <div className="space-x-6 hidden md:flex">
+//               <Link 
+//                 href="/" 
+//                 className="font-bold border-2 border-transparent hover:border-teal-500 hover:text-teal-500 py-2 px-4 rounded transition duration-300"
+//               >
+//                 Home
+//               </Link>
+//               <Link 
+//                 href="/dashboard/therapist" 
+//                 className="font-bold border-2 border-transparent hover:border-teal-500 hover:text-teal-500 py-2 px-4 rounded transition duration-300"
+//               >
+//                 Therapist Dashboard
+//               </Link>
+//               <Link 
+//                 href="/dashboard/user" 
+//                 className="font-bold border-2 border-transparent hover:border-teal-500 hover:text-teal-500 py-2 px-4 rounded transition duration-300"
+//               >
+//                 User Dashboard
+//               </Link>
+//               <Link 
+//                 href="/contact" 
+//                 className="font-bold border-2 border-transparent hover:border-teal-500 hover:text-teal-500 py-2 px-4 rounded transition duration-300"
+//               >
+//                 Contact Us
+//               </Link>
+//               <Link 
+//                 href="/login" 
+//                 className="font-bold border-2 border-transparent hover:border-teal-500 hover:text-teal-500 py-2 px-4 rounded transition duration-300"
+//               >
+//                 Login
+//               </Link>
+//             </div>
+
+//             {/* Mobile Menu Toggle (Hamburger) */}
+//             <div className="md:hidden">
+//               <button className="text-3xl text-teal-500">☰</button>
+//             </div>
+//           </div>
+//         </nav>
+
+//         {/* Main content */}
+//         {children}
+//       </body>
+//     </html>
+//   );
+// }
+
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
@@ -160,39 +308,66 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Soulchain",
-  description: "soulchain",
+  title: "SoulChain",
+  description: "SoulChain - Decentralized Mental Health Support",
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {/* Navbar */}
-        <nav className="bg-gradient-to-br from-[#34e89e] to-[#0f3443] text-white p-6 shadow-lg">
+        <nav className="bg-gradient-to-br from-[#f4f0e1] to-[#e1d7c6] text-gray-800 p-6 shadow-lg">
           <div className="max-w-7xl mx-auto flex justify-between items-center">
             {/* Logo Section */}
             <Link href="/" className="flex items-center space-x-2">
-              <img src="/logo.png" alt="Website Logo" className="h-12 transition-transform duration-300 hover:scale-110" /> {/* Added hover effect */}
-              <span className="text-3xl font-extrabold text-gray-100">SoulChain</span> {/* Enhanced logo font size */}
+              <img src="/logo.png" alt="Website Logo" className="h-12 transition-transform duration-300 hover:scale-110" />
+              <span className="text-3xl font-extrabold text-coffee-500">SoulChain</span>
             </Link>
 
             {/* Navbar Links */}
-            <div className="space-x-6 hidden md:flex">
-              <Link href="/" className="hover:text-gray-300 transition duration-300">Home</Link>
-              <Link href="/dashboard/therapist" className="hover:text-gray-300 transition duration-300">Therapist Dashboard</Link>
-              <Link href="/dashboard/user" className="hover:text-gray-300 transition duration-300">User Dashboard</Link>
-              <Link href="/contact" className="hover:text-gray-300 transition duration-300">Contact Us</Link>
-              <Link href="/login" className="hover:text-gray-300 transition duration-300">Login</Link>
-            </div>
+             <div className="space-x-6 hidden md:flex">
+              <Link 
+                href="/" 
+                className="font-bold text-xl border-2 border-transparent hover:border-teal-500 hover:text-teal-500 py-2 px-4 rounded transition duration-300"
+              >
+                Home
+              </Link>
+              <Link 
+                href="/dashboard/therapist" 
+                className="font-bold text-xl border-2 border-transparent hover:border-teal-500 hover:text-teal-500 py-2 px-4 rounded transition duration-300"
+              >
+                Therapist Dashboard
+              </Link>
+              <Link 
+                href="/dashboard/user" 
+                className="font-bold text-xl border-2 border-transparent hover:border-teal-500 hover:text-teal-500 py-2 px-4 rounded transition duration-300"
+              >
+                User Dashboard
+              </Link>
+              <Link 
+                href="/contact" 
+                className="font-bold text-xl border-2 border-transparent hover:border-teal-500 hover:text-teal-500 py-2 px-4 rounded transition duration-300"
+              >
+                Contact Us
+              </Link>
+              <Link 
+                href="/login" 
+                className="font-bold text-xl border-2 border-transparent hover:border-teal-500 hover:text-teal-500 py-2 px-4 rounded transition duration-300"
+              >
+                Login
+              </Link>
+            </div> 
+            
+
 
             {/* Mobile Menu Toggle (Hamburger) */}
             <div className="md:hidden">
-              <button className="text-3xl">☰</button> {/* Simple hamburger icon */}
+              <button className="text-3xl text-teal-500">☰</button>
             </div>
           </div>
         </nav>
